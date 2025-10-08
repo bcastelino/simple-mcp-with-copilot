@@ -57,6 +57,25 @@ section h3 {
   color: #1a237e;
 }
 
+/* Filters toolbar styles */
+#filters-toolbar {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+#filters-toolbar label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#filters-toolbar select,
+#filters-toolbar input[type="text"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
